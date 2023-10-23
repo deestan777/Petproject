@@ -1,0 +1,35 @@
+{
+  "name": "final-fantasy-indigo",
+  "version": "1.0.0",
+  "description": "Attractive view of realized case of creative brain with unbeliveble imaginary and most advanced colour taste",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo : no test specified && exit 1",
+    "dev": "webpack-dev-server --open",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deestan777/Petproject.git"
+  },
+  "keywords": [
+    "final",
+    "fantasy",
+    "petproject",
+    "dream",
+    "fate",
+    "paradise",
+    "indigo"
+  ],
+  "author": "Arenort",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deestan777/Petproject/issues"
+  },
+  "homepage": "https://github.com/deestan777/Petproject#readme",
+  "devDependencies": {
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  }
+}
