@@ -2,7 +2,7 @@ name: release-nightly-assets
 
 on:
   push:
-    branches: [ master, release/v* ]
+    branches: [main, release/v* ]
 
 jobs:
   nightly-binary:
@@ -14,7 +14,7 @@ jobs:
       - run: git fetch --unshallow --quiet --tags --force
       - uses: actions/setup-go@v4
         with:
-          go-version: ">=1.20"
+          go-version: "=1.20"
           check-latest: true
       - uses: actions/setup-node@v3
         with:
