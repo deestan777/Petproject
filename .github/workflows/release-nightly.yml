@@ -2,8 +2,7 @@ name: release-nightly-assets
 
 on:
   push:
-    branches: [main, release/v* ]
-
+    branches: '*'
 jobs:
   nightly-binary:
     runs-on: ubuntu-latest
