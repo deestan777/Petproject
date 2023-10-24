@@ -5,7 +5,7 @@
   "main": "index.html",
   "scripts": {
     "test": "echo : no test specified && exit 1",
-    "dev": "webpack-dev-server --open",
+    "dev": "webpack-dev-server --open ./index.html",
     "build": "webpack"
   },
   "repository": {
